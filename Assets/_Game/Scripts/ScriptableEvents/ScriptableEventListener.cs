@@ -6,8 +6,10 @@ namespace DefaultNamespace.ScriptableEvents
 {
     public class ScriptableEventListener : MonoBehaviour
     {
-        [SerializeField] private ScriptableEvent _eventNoPayload;
-        [SerializeField] private UnityEvent _responseNoPayload;
+        [SerializeField] 
+        private ScriptableEvent _eventNoPayload;
+        [SerializeField] 
+        private UnityEvent _responseNoPayload;
         
         private void OnEventRaised()
         {
